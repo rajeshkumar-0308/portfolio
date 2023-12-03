@@ -34,13 +34,13 @@
   );
 */
     Email.send({
-      Host : "smtp.elasticemail.com",
-      Username : "rajeshsaravanan2004@gmail.com",
-      Password : "052E0DE92AA305349AF8A3E028224DF7DE92",
-      To : 'rajeshsaravanan2004@gmail.com',
-      From : "rajeshsaravanan2004@gmail.com",
-      Subject : "This is the subject",
-      Body : "And this is the body"
+      Host => "smtp.elasticemail.com",
+      Username => "rajeshsaravanan2004@gmail.com",
+      Password => "052E0DE92AA305349AF8A3E028224DF7DE92",
+      To => 'rajeshsaravanan2004@gmail.com',
+      From => "rajeshsaravanan2004@gmail.com",
+      Subject => "This is the subject",
+      Body => "And this is the body"
   }).then(
     message => alert(message)
   );
