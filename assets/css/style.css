@@ -292,7 +292,8 @@ h6 {
     color: #fff;
   }
   #hero h2{
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
     font-size: 0.7rem;
   }
 }
